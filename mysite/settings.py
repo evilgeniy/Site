@@ -30,7 +30,7 @@ SECRET_KEY = 'l6*)-qi2fv04nkr5@f@c_!=jy^7a!5#(p$xd+of^1gmz33!s*y'
 DEBUG = True
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 
