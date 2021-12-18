@@ -42,3 +42,4 @@ INFO:django.utils.autoreload:/home/ghost/Documents/qwe/django_site/mysite/settin
 INFO:django.utils.autoreload:/home/ghost/Documents/qwe/django_site/blog/views.py changed, reloading.
 WARNING:django.request:Not Found: /favicon.ico
 INFO:django.utils.autoreload:/home/ghost/Documents/qwe/django_site/mysite/settings.py changed, reloading.
+INFO:django.utils.autoreload:/home/ghost/Documents/qwe/django_site/mysite/settings.py changed, reloading.
