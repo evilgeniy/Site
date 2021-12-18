@@ -32,6 +32,9 @@ DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 ALLOWED_HOSTS = ['polar-plains-47741.herokuapp.com', '127.0.0.1', '.pythonanywhere.com']
 
 
+
+
+
 # Application definition
 
 INSTALLED_APPS = [
