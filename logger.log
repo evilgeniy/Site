@@ -39,3 +39,5 @@ INFO:blog.views:Evil_geniy added a comment to Dota 2 update 7.69
 INFO:blog.views:Evil_geniy approved a Evil_geniys comment
 INFO:django.utils.autoreload:/home/ghost/Documents/qwe/django_site/blog/migrations/0002_auto_20211218_2149.py changed, reloading.
 INFO:django.utils.autoreload:/home/ghost/Documents/qwe/django_site/mysite/settings.py changed, reloading.
+INFO:django.utils.autoreload:/home/ghost/Documents/qwe/django_site/blog/views.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
