@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'l6*)-qi2fv04nkr5@f@c_!=jy^7a!5
 #DEBUG = False
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['polar-plains-47741.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['polar-plains-47741.herokuapp.com', '127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog_post'
     'blog',
 ]
 
@@ -129,6 +128,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfile')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
