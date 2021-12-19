@@ -7,16 +7,11 @@ from.forms import PostForm, CommentForm,SignupForm
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 
 from multiprocessing import Process
-import logging
+
 import configparser
 
 config = configparser.ConfigParser()
-config.read('cnf.ini')
-logging.basicConfig(
-	level=config['LOGGING']['level'],
-	filename=config['LOGGING']['filename']
-)
-log = logging.getLogger(__name__)
+
 
 def post_list(request):
 	posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
