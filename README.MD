@@ -11,7 +11,7 @@ Post(хранит в себе текст статьи её описание,им
 
 Comment(хранит в себе адрес на статью, имя написавшего, текст комментария,дату написания )
 http://127.0.0.1:8000/
-
+https://evilgeniy.pythonanywhere.com/
 Использовал источники:
 1)https://developer.mozilla.org/ru/docs/Learn/Server-side/Django
 2)https://tutorial.djangogirls.org/ru/
